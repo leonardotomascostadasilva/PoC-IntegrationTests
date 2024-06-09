@@ -1,0 +1,45 @@
+{
+  "consumer": {
+    "name": "MyAPI consumer"
+  },
+  "interactions": [
+    {
+      "description": "A request to test",
+      "providerStates": [
+        {
+          "name": "test"
+        }
+      ],
+      "request": {
+        "headers": {
+          "id": "12345"
+        },
+        "method": "GET",
+        "path": "/v1/test"
+      },
+      "response": {
+        "body": {
+          "FirstName": "Totally",
+          "Id": "tester",
+          "LastName": "Awesome"
+        },
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      }
+    }
+  ],
+  "metadata": {
+    "pactRust": {
+      "ffi": "0.4.0",
+      "models": "1.0.4"
+    },
+    "pactSpecification": {
+      "version": "3.0.0"
+    }
+  },
+  "provider": {
+    "name": "MyAPI"
+  }
+}

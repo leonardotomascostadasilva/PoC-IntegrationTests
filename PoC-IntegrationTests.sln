@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoCTests.Api.IntegrationTes
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0634662A-AA1A-46F1-837D-3589B235D3BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoCTests.Api.ContractTests", "PoCTests.Api.ContractTests\PoCTests.Api.ContractTests.csproj", "{4D3783B2-21CB-4361-9483-4BAC62C62CC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{30F05A99-D2E6-42CA-B425-CA99EA648872}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30F05A99-D2E6-42CA-B425-CA99EA648872}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30F05A99-D2E6-42CA-B425-CA99EA648872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3783B2-21CB-4361-9483-4BAC62C62CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D3783B2-21CB-4361-9483-4BAC62C62CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D3783B2-21CB-4361-9483-4BAC62C62CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D3783B2-21CB-4361-9483-4BAC62C62CC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{ADDF8ED5-8F58-40AB-A007-3538B3417E8F} = {88B9E37B-1F3E-4899-9BD0-9CF184A4E5A4}
 		{30F05A99-D2E6-42CA-B425-CA99EA648872} = {0634662A-AA1A-46F1-837D-3589B235D3BA}
+		{4D3783B2-21CB-4361-9483-4BAC62C62CC2} = {0634662A-AA1A-46F1-837D-3589B235D3BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {14FA3A64-565A-4FDC-9C9B-708F9453B6F2}
