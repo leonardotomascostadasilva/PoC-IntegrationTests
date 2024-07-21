@@ -1,4 +1,5 @@
-﻿using Refit;
+﻿using PoCTests.Api.Features.Login;
+using Refit;
 
 namespace PoCTests.Api
 {

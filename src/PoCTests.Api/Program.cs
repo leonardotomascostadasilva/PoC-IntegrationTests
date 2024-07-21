@@ -1,4 +1,4 @@
-using PoCTests.Api;
+using PoCTests.Api.Features.Login;
 using Refit;
 
 var builder = WebApplication.CreateBuilder(args);

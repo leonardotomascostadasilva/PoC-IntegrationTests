@@ -1,5 +1,4 @@
-﻿
-namespace PoCTests.Api
+﻿namespace PoCTests.Api.Features.Login
 {
     public interface ILogin
     {

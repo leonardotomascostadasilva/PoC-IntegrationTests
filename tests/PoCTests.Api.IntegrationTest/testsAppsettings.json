@@ -1,12 +1,5 @@
 {
-  "Logging": {
-    "LogLevel": {
-      "Default": "Information",
-      "Microsoft.AspNetCore": "Warning"
-    }
-  },
   "ValidateConfiguration": {
     "url": "http://localhost:8085"
-  },
-  "AllowedHosts": "*"
+  }
 }

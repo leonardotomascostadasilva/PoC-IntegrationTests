@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace PoCTests.Api
+namespace PoCTests.Api.Features.Login
 {
     [ApiController]
     [Route("v1/[controller]")]

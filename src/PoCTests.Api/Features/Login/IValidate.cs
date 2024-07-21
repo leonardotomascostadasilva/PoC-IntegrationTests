@@ -1,6 +1,6 @@
 ﻿using Refit;
 
-namespace PoCTests.Api
+namespace PoCTests.Api.Features.Login
 {
     public interface IValidate
     {
