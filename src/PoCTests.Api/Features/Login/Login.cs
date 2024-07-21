@@ -1,8 +1,12 @@
 ﻿namespace PoCTests.Api.Features.Login
 {
+    public class LoginResponse
+    {
+        public string? Description { get; set; }
+    }
     public interface ILogin
     {
-        public Task<string?> ExecuteAsync();
+        public Task<LoginResponse?> ExecuteAsync();
     }
     public class Login : ILogin
     {
@@ -13,11 +17,15 @@
             _validate = validate;
         }
 
-        public async Task<string?> ExecuteAsync()
+        public async Task<LoginResponse?> ExecuteAsync()
         {
             var response = await _validate.ValidateAsync();
 
-            return response.IsSuccessStatusCode ? response.Content : null;
+            if (!response.IsSuccessStatusCode)
+            {
+                return null;
+            }
+            return new LoginResponse { Description = response.Content };
         }
     }
 }
