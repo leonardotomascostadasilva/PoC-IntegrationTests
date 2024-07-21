@@ -1,4 +1,4 @@
-﻿namespace PoCTests.Api.IntegrationTest
+﻿namespace PoCTests.Api.IntegrationTest.Commons
 {
 
     [CollectionDefinition(nameof(CustomWebApplicationFactoryCollection))]

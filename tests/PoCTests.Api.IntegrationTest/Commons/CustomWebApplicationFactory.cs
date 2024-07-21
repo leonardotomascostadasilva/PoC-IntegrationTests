@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 
-namespace PoCTests.Api.IntegrationTest
+namespace PoCTests.Api.IntegrationTest.Commons
 {
     public class CustomWebApplicationFactory : WebApplicationFactory<FakerStartup>
     {
